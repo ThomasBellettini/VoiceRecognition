@@ -32,7 +32,7 @@ public class VoiceMaster extends ListenerAdapter {
 
     public VoiceMaster() throws LoginException, IOException {
         getInstance = this;
-        botInstance = JDABuilder.createDefault("OTg3OTU0NDYwMjU5MTQzNzUw.GWI31e.TgrLfO7R4sBByMZrUDCFtmITK-oHraUyZ996UA",
+        botInstance = JDABuilder.createDefault("",
                         GatewayIntent.GUILD_VOICE_STATES,
                         GatewayIntent.GUILD_MESSAGES)
                 .disableCache(CacheFlag.CLIENT_STATUS,
